@@ -1,0 +1,35 @@
+.app-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-bottom: 100px;
+  }
+  
+  .site-footer {
+    margin-top: auto;
+  }
+
+  .content-row {
+    max-width: 1300px;
+    padding: 0 70px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .content-row--spaced {
+    margin-bottom: 100px;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
