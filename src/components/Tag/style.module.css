@@ -1,0 +1,9 @@
+.tag {
+    font-size: 1.06rem;
+    background-color: #191919;
+    padding: 2px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;    
+}

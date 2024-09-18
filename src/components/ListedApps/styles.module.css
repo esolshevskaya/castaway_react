@@ -1,0 +1,22 @@
+.listed-apps__title {
+    margin-bottom: 15px;
+    font-size: 0.93rem;
+}
+
+.listed-apps__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.listed-apps__list-item {
+    transform: translateY(0);
+    transition: transform 0.15s ease-out;
+    display: inline-block;
+}
+
+.listed-apps__list-item:hover {
+    transform: translateY(-3px);
+}

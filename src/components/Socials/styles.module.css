@@ -1,0 +1,12 @@
+.socials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+}
+
+.social__link {
+    color: #fff;
+
+}
