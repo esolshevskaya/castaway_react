@@ -1,0 +1,25 @@
+.review {
+    padding: 50px;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-rating {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.review__text {
+    font-size: 2.25rem;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.review__author {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.5rem;
+    margin-top: auto;
+}
