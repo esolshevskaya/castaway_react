@@ -1,0 +1,41 @@
+.hero-main  {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+}
+
+.hero-main__image {
+    max-width: 650px;
+}
+
+.hero-main__details {
+    width: calc(100% - 710px);
+}
+
+.hero-main__title {
+    font-size: 4.375rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 70px;
+}
+
+.hero-main__title--higlighed {
+    display: inline-block;
+    position: relative;
+}
+
+.hero-main__title--higlighed::after {
+    content: '';
+    position: absolute;
+
+    top: calc(100% - 5px);
+    left: 0;
+    right: 0;
+    height: 12px;
+    background-image: url('../../assets//images/hero-higlight.svg');
+}
+
+.hero-main__title--strong {
+    font-weight: 700;
+    font-size: 5rem;
+}
