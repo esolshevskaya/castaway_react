@@ -1,0 +1,62 @@
+.episode-card {
+    background-color: #000;
+    border-radius: 32px;
+    padding: 40px;
+    display: flex;
+    gap: 50px;
+    transition: transform 0.15s ease-out;
+    position: relative;
+}
+
+
+.episode-card__hidden-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.episode-card:hover {
+    transform: translateY(-10px);
+}
+
+.episode__card-img {
+    width: 390px;
+}
+
+.episode__card-img img {
+    max-width: 100%;
+}
+
+.episode__card-body {
+    width: calc(100% - 440px);
+    max-width: 780px;
+}
+
+.episode__card-tag {
+    margin-bottom: 50px;
+}
+
+.episode__card-subtitle {
+    margin-bottom: 15px;
+}
+
+.episode__card-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    line-height: 1.09;
+    font-weight: 400;
+}
+
+.episode__card-description {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.episode__card-footer {
+    position: relative;
+    z-index: 3;
+}
