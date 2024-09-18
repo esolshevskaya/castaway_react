@@ -1,0 +1,47 @@
+.subscribe {
+    padding: 60px;
+    display: flex;
+    position: relative;
+    gap: 70px;
+    background-color: #000;
+}
+
+.subscribe__title {
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subscribe__form {
+    width: 520px;
+}
+
+.subscribe__form-line {
+    position: absolute;
+    background-color: #118DA8;
+    width: 3px;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.subscribe__form-line--1 {
+    height: 22px;
+    left: -5px;
+    bottom: 30px;
+    transform: rotate(30deg);
+}
+
+.subscribe__form-line--2 {
+    height: 60px;
+    left: 5px;
+    bottom: -30px;
+    transform: rotate(20deg);
+}
+
+.subscribe__form-line--3 {
+    height: 55px;
+    left: 55px;
+    bottom: -31px;
+    transform: rotate(-20deg);
+}
