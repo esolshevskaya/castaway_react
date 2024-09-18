@@ -1,7 +1,4 @@
 # Запуск:
-
-npm install
-
-npm install sanitize.css
-
-npm run dev
+- npm install
+- npm install sanitize.css
+- npm run dev
