@@ -1,0 +1,22 @@
+.episodes__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+
+.episodes__header-title {
+    font-size: 4rem;
+    line-height: 1.25;
+}
+
+.episodes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
