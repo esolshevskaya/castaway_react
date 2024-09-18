@@ -1,0 +1,38 @@
+.site-footer-content {
+    display: flex;
+}
+
+.footer-logo {
+    min-width: 450px;
+
+}
+
+.footer-logo-img {
+    margin-bottom: 20px;
+    width: 224px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.footer-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+}
+
+.footer-nav-list li {
+    margin-bottom: 10px;
+}
+
+.footer-apps, .listed-apps {
+    height: 32px;
+    width: 32px;
+}
